@@ -104,7 +104,7 @@ function NotificationCard({ item }: { item: ReturnType<typeof generateNotificati
 
   return (
     <motion.div
-      className="absolute left-[65%] bottom-[76px] w-[370px] max-w-[90vw] -translate-x-1/2 rounded-[28px] border border-white/20 bg-white/12 p-3 shadow-2xl backdrop-blur-2xl"
+      className="absolute left-[350px] bottom-[150px] w-[80%] max-w-[90vw] -translate-x-1/2 rounded-[28px] border border-white/20 bg-white/12 p-3 shadow-2xl backdrop-blur-2xl"
       style={{
         zIndex: item.z,
         boxShadow:
